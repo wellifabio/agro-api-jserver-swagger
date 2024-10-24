@@ -79,7 +79,7 @@
             "name": "id",
             "in": "path",
             "required": true,
-            "description": "ID do usuário que deve ser removido",
+            "description": "ID do funcionário que deve ser alterado",
             "schema": {
               "type": "string"
             }
@@ -126,7 +126,7 @@
             "name": "id",
             "in": "path",
             "required": true,
-            "description": "ID do usuário que deve ser removido",
+            "description": "ID do funcionário que deve ser removido",
             "schema": {
               "type": "string"
             }
@@ -221,7 +221,7 @@
             "name": "id",
             "in": "path",
             "required": true,
-            "description": "ID do usuário que deve ser removido",
+            "description": "ID do animal que deve ser alterado",
             "schema": {
               "type": "string"
             }
@@ -280,6 +280,284 @@
             "description": "ID do animal que deve ser removido",
             "schema": {
               "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Excluído com sucesso"
+          },
+          "400": {
+            "description": "Id não encontrado"
+          }
+        }
+      }
+    },
+    "/manejos": {
+      "get": {
+        "summary": "Obter lista de funcionários",
+        "tags": [
+          "CRUD de Manejos"
+        ],
+        "responses": {
+          "200": {
+            "description": "Sucesso"
+          },
+          "401": {
+            "description": "Não autorizado"
+          }
+        }
+      },
+      "post": {
+        "summary": "Criar novo elemento",
+        "tags": [
+          "CRUD de Manejos"
+        ],
+        "requestBody": {
+          "description": "Dados de criação",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Tipo": {
+                    "type": "string"
+                  },
+                  "Descrição": {
+                    "type": "string"
+                  },
+                  "Data e Hora": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "Animalid": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "Tipo",
+                  "Descrição",
+                  "Data e Hora",
+                  "Animalid"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Criado com sucesso"
+          },
+          "400": {
+            "description": "Erro de envio de dados"
+          }
+        }
+      }
+    },
+    "/manejos/{id}": {
+      "patch": {
+        "summary": "Alterar elemento",
+        "tags": [
+          "CRUD de Manejos"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "ID do manejo que deve ser alterado",
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Dados para alteração",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Tipo": {
+                    "type": "string"
+                  },
+                  "Descrição": {
+                    "type": "string"
+                  },
+                  "Data e Hora": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "Animalid": {
+                    "type": "string"
+                  }
+                },
+                "required": []
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Dados alterados com sucesso"
+          },
+          "404": {
+            "description": "Dados não encontrados"
+          }
+        }
+      },
+      "delete": {
+        "summary": "Excluir elemento",
+        "tags": [
+          "CRUD de Manejos"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "ID do manejo que deve ser removido",
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Excluído com sucesso"
+          },
+          "400": {
+            "description": "Id não encontrado"
+          }
+        }
+      }
+    },
+    "/midias": {
+      "get": {
+        "summary": "Obter lista de animais",
+        "tags": [
+          "CRUD de Mídias"
+        ],
+        "responses": {
+          "200": {
+            "description": "Sucesso"
+          },
+          "401": {
+            "description": "Não autorizado"
+          }
+        }
+      },
+      "post": {
+        "summary": "Criar novo elemento",
+        "tags": [
+          "CRUD de Mídias"
+        ],
+        "requestBody": {
+          "description": "Dados de criação",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Tipo": {
+                    "type": "string"
+                  },
+                  "Nome": {
+                    "type": "string"
+                  },
+                  "Data e Hora": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "Animalid": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "Tipo",
+                  "Nome",
+                  "Data e Hora",
+                  "Animalid"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Criado com sucesso"
+          },
+          "400": {
+            "description": "Erro de envio de dados"
+          }
+        }
+      }
+    },
+    "/midias/{id}": {
+      "patch": {
+        "summary": "Alterar elemento",
+        "tags": [
+          "CRUD de Mídias"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "ID da mídia que deve ser alterada",
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Dados para alteração",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Tipo": {
+                    "type": "string"
+                  },
+                  "Nome": {
+                    "type": "string"
+                  },
+                  "Data e Hora": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "Animalid": {
+                    "type": "string"
+                  }
+                },
+                "required": []
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Dados alterados com sucesso"
+          },
+          "404": {
+            "description": "Dados não encontrados"
+          }
+        }
+      },
+      "delete": {
+        "summary": "Excluir elemento",
+        "tags": [
+          "CRUD de Mídias"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "ID da mídia que deve ser removida",
+            "schema": {
+              "type": "integer"
             }
           }
         ],
