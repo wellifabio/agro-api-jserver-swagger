@@ -37,8 +37,8 @@
       "Tipo": "Bovino",
       "Nome": "Estrela",
       "Sexo": "Fêmea",
-      "Mãe": "Lua",
-      "Pai": "Sol",
+      "Peso": 225.3,
+      "Idade": 2,
       "Raça": "Nelore"
     },
     {
@@ -46,36 +46,36 @@
       "Tipo": "Equino",
       "Nome": "Relampago",
       "Sexo": "Macho",
-      "Mãe": "Ventania",
-      "Pai": "Tornado",
+      "Peso": 250,
+      "Idade": 1,
       "Raça": "Quarto de Milha"
     },
     {
       "id": "96412",
-      "Tipo": "Ovino",
+      "Tipo": "Suino",
       "Nome": "Nevasca",
       "Sexo": "Fêmea",
-      "Mãe": "Nevada",
-      "Pai": "Gelado",
+      "Peso": 60.3,
+      "Idade": 2,
       "Raça": "Santa Ines"
     },
     {
       "id": "52147",
-      "Tipo": "Caprino",
+      "Tipo": "Equino",
       "Nome": "Horácio",
       "Sexo": "Macho",
-      "Mãe": "Aurora",
-      "Pai": "Crepúsculo",
-      "Raça": "Saanen"
+      "Peso": 350.1,
+      "Idade": 2,
+      "Raça": "Manga Larga"
     },
     {
       "id": "85473",
       "Tipo": "Bovino",
       "Nome": "Zebu",
       "Sexo": "Macho",
-      "Mãe": "Helena",
-      "Pai": "Zeus",
-      "Raça": "Hereford"
+      "Peso": 398.4,
+      "Idade": 1,
+      "Raça": "Zebu"
     }
   ],
   "manejos": [

@@ -246,11 +246,11 @@
                   "Sexo": {
                     "type": "string"
                   },
-                  "Mãe": {
-                    "type": "string"
+                  "Peso": {
+                    "type": "number"
                   },
-                  "Pai": {
-                    "type": "string"
+                  "Idade": {
+                    "type": "number"
                   },
                   "Raça": {
                     "type": "string"
@@ -260,8 +260,8 @@
                   "Tipo",
                   "Nome",
                   "Sexo",
-                  "Mãe",
-                  "Pai",
+                  "Peso",
+                  "Idade",
                   "Raça"
                 ]
               }
@@ -311,11 +311,11 @@
                   "Sexo": {
                     "type": "string"
                   },
-                  "Mãe": {
-                    "type": "string"
+                  "Peso": {
+                    "type": "number"
                   },
-                  "Pai": {
-                    "type": "string"
+                  "Idade": {
+                    "type": "number"
                   },
                   "Raça": {
                     "type": "string"
