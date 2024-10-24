@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "json-server": "^0.17.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "bin": "./server.js",
+  "name": "json-server-upload",
+  "version": "1.0.0",
+  "description": "Módulo que tem como função operações CRUD em uma fake REST API, ótimo para mockar um backend simples. Utiliza o json-server como base para criar uma fake REST API",
+  "main": "server.js",
+  "keywords": [
+    "upload",
+    "json",
+    "json-server",
+    "mock",
+    "fake",
+    "REST",
+    "API",
+    "fake",
+    "api",
+    "backend"
+  ],
+  "author": "t_nascimento",
+  "license": "MIT"
+}
