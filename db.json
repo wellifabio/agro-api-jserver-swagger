@@ -38,8 +38,21 @@
       "Nome": "Estrela",
       "Sexo": "Fêmea",
       "Peso": 225.3,
-      "Idade": 2,
-      "Raça": "Nelore"
+      "Idade": 2.0,
+      "Abate": 2.5,
+      "Raça": "Nelore",
+      "Lote": 123,
+      "imagem": "1729798538466.jpg",
+      "manejo": {
+        "videos": [
+          "video-1-vaca.mp4",
+          "video-2-vaca.mp4",
+          "video-3-vaca.mp4"
+        ],
+        "habitat": "Misto",
+        "vacinação": 32,
+        "Exercício": "2024-10-28T07:00:00.000Z"
+      }
     },
     {
       "id": "35798",
@@ -48,7 +61,20 @@
       "Sexo": "Macho",
       "Peso": 250,
       "Idade": 1,
-      "Raça": "Quarto de Milha"
+      "Abate": 15,
+      "Raça": "Quarto de Milha",
+      "Lote": 121,
+      "imagem": "1729803527343.png",
+      "manejo": {
+        "videos": [
+          "video-1-cavalo.mp4",
+          "video-2-cavalo.mp4",
+          "video-3-cavalo.mp4"
+        ],
+        "habitat": "Externo",
+        "vacinação": 27,
+        "Exercício": "2024-10-22T07:00:00.000Z"
+      }
     },
     {
       "id": "96412",
@@ -57,7 +83,20 @@
       "Sexo": "Fêmea",
       "Peso": 60.3,
       "Idade": 2,
-      "Raça": "Santa Ines"
+      "Abate": 2.2,
+      "Raça": "Santa Ines",
+      "Lote": 123,
+      "imagem": "1729803538413.png",
+      "manejo": {
+        "videos": [
+          "video-1-porco.mp4",
+          "video-2-porco.mp4",
+          "video-3-porco.mp4"
+        ],
+        "habitat": "Externo",
+        "vacinação": 27,
+        "Exercício": "2024-10-22T07:00:00.000Z"
+      }
     },
     {
       "id": "52147",
@@ -66,7 +105,20 @@
       "Sexo": "Macho",
       "Peso": 350.1,
       "Idade": 2,
-      "Raça": "Manga Larga"
+      "Abate": 20,
+      "Raça": "Manga Larga",
+      "Lote": 123,
+      "imagem": "1729803527343.png",
+      "manejo": {
+        "videos": [
+          "video-1-cavalo.mp4",
+          "video-2-cavalo.mp4",
+          "video-3-cavalo.mp4"
+        ],
+        "habitat": "Externo",
+        "vacinação": 27,
+        "Exercício": "2024-10-18T07:00:00.000Z"
+      }
     },
     {
       "id": "85473",
@@ -75,179 +127,20 @@
       "Sexo": "Macho",
       "Peso": 398.4,
       "Idade": 1,
-      "Raça": "Zebu"
-    }
-  ],
-  "manejos": [
-    {
-      "Tipo": "Vacinação",
-      "Descrição": "Vacinação contra Brucelose",
-      "Data e Hora": "2024-10-20 10:30",
-      "Animalid": "78412",
-      "id": 1
-    },
-    {
-      "Tipo": "Inseminação",
-      "Descrição": "Inseminação artificial com sêmen sexado",
-      "Data e Hora": "2023-01-15 08:45",
-      "Animalid": "78412",
-      "id": 2
-    },
-    {
-      "Tipo": "Vacinação",
-      "Descrição": "Vacinação contra Influenza Equina",
-      "Data e Hora": "2024-10-02 14:00",
-      "Animalid": "35798",
-      "id": 3
-    },
-    {
-      "Tipo": "Tosa",
-      "Descrição": "Tosa geral",
-      "Data e Hora": "2023-06-20 09:15",
-      "Animalid": "35798",
-      "id": 4
-    },
-    {
-      "Tipo": "Vacinação",
-      "Descrição": "Vacinação contra Clostridiose",
-      "Data e Hora": "2022-11-15 15:45",
-      "Animalid": "96412",
-      "id": 5
-    },
-    {
-      "Tipo": "Monta",
-      "Descrição": "Monta natural",
-      "Data e Hora": "2024-10-05 06:30",
-      "Animalid": "96412",
-      "id": 6
-    },
-    {
-      "Tipo": "Vacinação",
-      "Descrição": "Vacinação contra Febre Aftótica",
-      "Data e Hora": "2024-05-06 11:20",
-      "Animalid": "52147",
-      "id": 7
-    },
-    {
-      "Tipo": "Tosa",
-      "Descrição": "Tosa de lã",
-      "Data e Hora": "2023-05-12 16:00",
-      "Animalid": "52147",
-      "id": 8
-    },
-    {
-      "Tipo": "Vacinação",
-      "Descrição": "Vacinação contra Raiva",
-      "Data e Hora": "2024-09-20 17:30",
-      "Animalid": "85473",
-      "id": 9
-    }
-  ],
-  "midias": [
-    {
-      "Tipo": "Imagem",
-      "Nome": "ferida.png",
-      "Data e Hora": "2022-05-10 10:30",
-      "Animalid": "78412",
-      "id": 1
-    },
-    {
-      "Tipo": "Imagem",
-      "Descrição": "vaca.png",
-      "Data e Hora": "2023-01-15 08:45",
-      "Animalid": "78412",
-      "id": 2
-    },
-    {
-      "Tipo": "Audio",
-      "Descrição": "vaca.mp3",
-      "Data e Hora": "2023-01-15 08:45",
-      "Animalid": "78412",
-      "id": 3
-    },
-    {
-      "Tipo": "Imagem",
-      "Nome": "carrapatos.png",
-      "Data e Hora": "2022-05-10 10:30",
-      "Animalid": "35798",
-      "id": 4
-    },
-    {
-      "Tipo": "Imagem",
-      "Descrição": "cavalo.png",
-      "Data e Hora": "2023-01-15 08:45",
-      "Animalid": "35798",
-      "id": 5
-    },
-    {
-      "Tipo": "Audio",
-      "Descrição": "cavalo.mp3",
-      "Data e Hora": "2023-01-15 08:45",
-      "Animalid": "35798",
-      "id": 6
-    },
-    {
-      "Tipo": "Imagem",
-      "Nome": "tosa.png",
-      "Data e Hora": "2022-05-10 10:30",
-      "Animalid": "96412",
-      "id": 7
-    },
-    {
-      "Tipo": "Imagem",
-      "Descrição": "ovelha.png",
-      "Data e Hora": "2023-01-15 08:45",
-      "Animalid": "96412",
-      "id": 8
-    },
-    {
-      "Tipo": "Audio",
-      "Descrição": "ovelha.mp3",
-      "Data e Hora": "2023-01-15 08:45",
-      "Animalid": "96412",
-      "id": 9
-    },
-    {
-      "Tipo": "Imagem",
-      "Nome": "mosca.png",
-      "Data e Hora": "2022-05-10 10:30",
-      "Animalid": "52147",
-      "id": 10
-    },
-    {
-      "Tipo": "Imagem",
-      "Descrição": "bode.png",
-      "Data e Hora": "2023-01-15 08:45",
-      "Animalid": "52147",
-      "id": 11
-    },
-    {
-      "Tipo": "Audio",
-      "Descrição": "bode.mp3",
-      "Data e Hora": "2023-01-15 08:45",
-      "Animalid": "52147",
-      "id": 12
-    },
-    {
-      "Tipo": "Imagem",
-      "Nome": "chifres.png",
-      "Data e Hora": "2024-05-10 10:30",
-      "Animalid": "85473",
-      "id": 13
-    },
-    {
-      "Tipo": "Imagem",
-      "Descrição": "boi.png",
-      "Data e Hora": "2023-01-15 09:45",
-      "Animalid": "85473",
-      "id": 14
-    },
-    {
-      "Tipo": "Audio",
-      "Descrição": "boi.mp3",
-      "Data e Hora": "2022-09-20 17:30",
-      "Animalid": "85473",
-      "id": 15
+      "Abate": 2.5,
+      "Raça": "Zebu",
+      "Lote": 121,
+      "imagem": "1729798538466.jpg",
+      "manejo": {
+        "videos": [
+          "video-1-vaca.mp4",
+          "video-2-vaca.mp4",
+          "video-3-vaca.mp4"
+        ],
+        "habitat": "Misto",
+        "vacinação": 18,
+        "Exercício": "2024-10-26T07:00:00.000Z"
+      }
     }
   ]
 }
