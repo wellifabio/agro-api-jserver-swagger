@@ -214,7 +214,7 @@
       "get": {
         "summary": "Obter lista de animais",
         "tags": [
-          "CRUD de Animais"
+          "CRUD de Animais e Manejo"
         ],
         "responses": {
           "200": {
@@ -228,7 +228,7 @@
       "post": {
         "summary": "Criar novo elemento",
         "tags": [
-          "CRUD de Animais"
+          "CRUD de Animais e Manejo"
         ],
         "requestBody": {
           "description": "Dados de criação",
@@ -315,7 +315,7 @@
       "patch": {
         "summary": "Alterar elemento",
         "tags": [
-          "CRUD de Animais"
+          "CRUD de Animais e Manejo"
         ],
         "parameters": [
           {
@@ -401,7 +401,7 @@
       "delete": {
         "summary": "Excluir elemento",
         "tags": [
-          "CRUD de Animais"
+          "CRUD de Animais e Manejo"
         ],
         "parameters": [
           {
