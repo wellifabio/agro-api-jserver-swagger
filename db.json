@@ -3,32 +3,32 @@
     {
       "id": "16284",
       "nome": "Marcos Silva",
-      "latitude": -23.623334,
-      "longitude": -46.550141
+      "email": "marcos@gmailcom",
+      "senha": "$2a$10$Y9nEeY6FPS3q9i7KLO.D4OTKA4CwTxxSLYQDhlBqXDniiNHJypwm2"
     },
     {
       "id": "94712",
       "nome": "Pedro Souza",
-      "latitude": -23.628389,
-      "longitude": -46.560421
+      "email": "pedro@gmailcom",
+      "senha": "$2a$10$Y9nEeY6FPS3q9i7KLO.D4OTKA4CwTxxSLYQDhlBqXDniiNHJypwm2"
     },
     {
       "id": "53901",
       "nome": "José Santos",
-      "latitude": -23.632346,
-      "longitude": -46.542957
+      "email": "marjosecos@gmailcom",
+      "senha": "$2a$10$Y9nEeY6FPS3q9i7KLO.D4OTKA4CwTxxSLYQDhlBqXDniiNHJypwm2"
     },
     {
       "id": "28463",
       "nome": "Ricardo Oliveira",
-      "latitude": -23.617184,
-      "longitude": -46.55685
+      "email": "ricardo@gmailcom",
+      "senha": "$2a$10$Y9nEeY6FPS3q9i7KLO.D4OTKA4CwTxxSLYQDhlBqXDniiNHJypwm2"
     },
     {
       "id": "71590",
       "nome": "Isabela Pereira",
-      "latitude": -23.620441,
-      "longitude": -46.545108
+      "email": "isabela@gmailcom",
+      "senha": "$2a$10$Y9nEeY6FPS3q9i7KLO.D4OTKA4CwTxxSLYQDhlBqXDniiNHJypwm2"
     }
   ],
   "animais": [

@@ -12,6 +12,71 @@
     }
   ],
   "paths": {
+    "/static/{arquivo}": {
+      "get": {
+        "summary": "Diretório de arquivos estáticos (imagens)",
+        "tags": [
+          "Arquivos Estáticos (imagens)"
+        ],
+        "parameters": [
+          {
+            "name": "arquivo",
+            "in": "path",
+            "required": true,
+            "description": "Nome e extensão do arquivo",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Sucesso"
+          },
+          "401": {
+            "description": "Não autorizado"
+          },
+          "404": {
+            "description": "Não encontrado"
+          }
+        }
+      }
+    },
+    "/imgs": {
+      "post": {
+        "summary": "Envio de imagens para diretório",
+        "tags": [
+          "Arquivos Estáticos (imagens)"
+        ],
+        "requestBody": {
+          "description": "Dados de criação",
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "imagem": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                },
+                "required": [
+                  "imagem"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Sucesso"
+          },
+          "400": {
+            "description": "Erro de envio de dados"
+          }
+        }
+      }
+    },
     "/funcionarios": {
       "get": {
         "summary": "Obter lista de funcionários",
@@ -42,17 +107,17 @@
                   "nome": {
                     "type": "string"
                   },
-                  "latitude": {
-                    "type": "number"
+                  "email": {
+                    "type": "string"
                   },
-                  "longitude": {
-                    "type": "number"
+                  "senha": {
+                    "type": "string"
                   }
                 },
                 "required": [
                   "nome",
-                  "latitude",
-                  "longitude"
+                  "email",
+                  "senha"
                 ]
               }
             }
@@ -95,11 +160,11 @@
                   "nome": {
                     "type": "string"
                   },
-                  "latitude": {
-                    "type": "number"
+                  "email": {
+                    "type": "string"
                   },
-                  "longitude": {
-                    "type": "number"
+                  "senha": {
+                    "type": "string"
                   }
                 },
                 "required": []
@@ -137,6 +202,9 @@
             "description": "Excluído com sucesso"
           },
           "400": {
+            "description": "Erro ao excluir"
+          },
+          "404": {
             "description": "Id não encontrado"
           }
         }
