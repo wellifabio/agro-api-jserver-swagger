@@ -1,6 +1,9 @@
 <h1 align="center">AGROTECH</h1>
 
-<p align="center">🚀 Projeto que utiliza o json-server para mockar uma REST API e Swagger para documentar</p><br>
+<p align="center">🚀 Projeto que utiliza o json-server para mockar uma REST API e Swagger para documentar, também cria um diretório para upload de imagem e utiliza autenticação JWT</p><br>
+
+- [json-server Authentication ](https://www.npmjs.com/package/json-server-auth)
+- [Swagger](https://swagger.io/)
 
 ### Descrição
 Este projeto utiliza como base o json-server
@@ -19,6 +22,16 @@ $ npm install
 
 # Execute a aplicação 
 $ npm start
-# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000/swagger> para ver a documentação
+```
+- A API possui autenticação JWT, para acessar os endpoints protegidos é necessário passar o token no header da requisição
+- Basta criar um usuário na rota /users e fazer login na rota /login para obter o token
+- Exemplo de dados para a criação de um usuário:
+```json
+{
+    "nome": "Marcos",
+    "email": "marcos@gmailcom",
+    "password": "senha123"
+}
 ```
 ![swagger](./swagger.png)

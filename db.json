@@ -1,48 +1,5 @@
 {
-  "users": [
-    {
-      "email": "marcos@gmailcom",
-      "password": "marcos1234",
-      "id": 1
-    },
-    {
-      "email": "pedro@gmailcom",
-      "password": "pedro1234",
-      "id": 2
-    }
-  ],
-  "funcionarios": [
-    {
-      "id": "16284",
-      "nome": "Marcos Silva",
-      "email": "marcos@gmailcom",
-      "senha": "$2a$10$Y9nEeY6FPS3q9i7KLO.D4OTKA4CwTxxSLYQDhlBqXDniiNHJypwm2"
-    },
-    {
-      "id": "94712",
-      "nome": "Pedro Souza",
-      "email": "pedro@gmailcom",
-      "senha": "$2a$10$Y9nEeY6FPS3q9i7KLO.D4OTKA4CwTxxSLYQDhlBqXDniiNHJypwm2"
-    },
-    {
-      "id": "53901",
-      "nome": "José Santos",
-      "email": "marjosecos@gmailcom",
-      "senha": "$2a$10$Y9nEeY6FPS3q9i7KLO.D4OTKA4CwTxxSLYQDhlBqXDniiNHJypwm2"
-    },
-    {
-      "id": "28463",
-      "nome": "Ricardo Oliveira",
-      "email": "ricardo@gmailcom",
-      "senha": "$2a$10$Y9nEeY6FPS3q9i7KLO.D4OTKA4CwTxxSLYQDhlBqXDniiNHJypwm2"
-    },
-    {
-      "id": "71590",
-      "nome": "Isabela Pereira",
-      "email": "isabela@gmailcom",
-      "senha": "$2a$10$Y9nEeY6FPS3q9i7KLO.D4OTKA4CwTxxSLYQDhlBqXDniiNHJypwm2"
-    }
-  ],
+  "users": [],
   "animais": [
     {
       "id": "78412",
@@ -50,7 +7,7 @@
       "Nome": "Estrela",
       "Sexo": "Fêmea",
       "Peso": 225.3,
-      "Idade": 2.0,
+      "Idade": 2,
       "Abate": 2.5,
       "Raça": "Nelore",
       "Lote": 123,
@@ -153,6 +110,26 @@
         "vacinação": 18,
         "Exercício": "2024-10-26T07:00:00.000Z"
       }
+    },
+    {
+      "Tipo": "string",
+      "Nome": "string",
+      "Sexo": "string",
+      "Peso": 0,
+      "Idade": 0,
+      "Abate": 0,
+      "Raça": "string",
+      "Lote": 0,
+      "imagem": "string",
+      "manejo": {
+        "videos": [
+          "string"
+        ],
+        "habitat": "string",
+        "vacinação": 0,
+        "Exercício": "2024-10-25T22:21:00.921Z"
+      },
+      "id": "aMCrtyM"
     }
   ]
 }

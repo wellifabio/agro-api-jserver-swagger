@@ -56,6 +56,8 @@ server.post("/imgs", (req, res) => {
 
 // Você pode definir diferentes níveis de acesso para diferentes endpoints aqui.
 const rules = auth.rewriter({
+    "/users*": "/660/users",
+    "/animais*": "/660/animais",
 });
 
 server.use(rules);
