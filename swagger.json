@@ -12,6 +12,53 @@
     }
   ],
   "paths": {
+    "/users": {
+      "get": {
+        "summary": "Obter dados do endpoint protegido",
+        "tags": ["Auth"],
+        "responses": {
+          "200": {
+            "description": "Sucesso"
+          },
+          "401": {
+            "description": "Não autorizado"
+          }
+        }
+      }
+    },
+    "/login": {
+      "post": {
+        "summary": "Login do usuário",
+        "tags": ["Auth"],
+        "requestBody": {
+          "description": "Dados de login",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": {
+                    "type": "string"
+                  },
+                  "password": {
+                    "type": "string"
+                  }
+                },
+                "required": ["email", "password"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Login bem-sucedido"
+          },
+          "400": {
+            "description": "Erro de validação"
+          }
+        }
+      }
+    },
     "/static/{arquivo}": {
       "get": {
         "summary": "Diretório de arquivos estáticos (imagens)",
