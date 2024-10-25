@@ -8,14 +8,17 @@ const cors = require("cors")
 
 const server = jsonServer.create()
 const router = jsonServer.router("db.json")
+const middlewares = jsonServer.defaults()
 
 const swaggerUi = require('swagger-ui-express');// Documentação Swagger
 const swaggerDoc = require('./swagger.json'); // Arquivo de documentação Swagger
 server.use('/swagger', swaggerUi.serve, swaggerUi.setup(swaggerDoc));
 
+const ip = "localhost";
 const port = 3000;
-let imagem = ""
 
+//Upload de imagens
+let imagem = ""
 if (!fs.existsSync(path.join(__dirname, "uploads"))) {
     fs.mkdirSync(path.join(__dirname, "uploads"))
 }
@@ -30,7 +33,6 @@ let storage = multer.diskStorage({
     }
 })
 
-// Configuração do Multer
 let upload = multer({ storage })
 server.use(cors())
 server.use("/static", express.static(path.join(__dirname, "uploads")))
@@ -52,15 +54,21 @@ server.post("/imgs", (req, res) => {
     imagem = "";
 })
 
+// Você pode definir diferentes níveis de acesso para diferentes endpoints aqui.
+const rules = auth.rewriter({
+    "/users*": "/660/users",
+});
+
+server.use(rules);
 server.use(auth);
 server.db = router.db
 server.use(router)
 
 server.listen(port, () => {
-    console.log("\x1b[36m%s\x1b[0m", "JSON Server executando na porta: " + port)
+    console.log("\x1b[36m%s\x1b[0m", "JSON Server executando em: " + ip + ":" + port)
     console.log("\x1b[1m%s\x1b[0m", "\nRecursos disponíveis: \n")
-    console.log(`\nhttp://localhost:${port}/swagger`);
-    console.log(`http://localhost:${port}/imgs`);
-    console.log(`http://localhost:${port}/static\n`);
-    Object.keys(router.db.__wrapped__).forEach(recurso => console.log(`http://localhost:${port}/${recurso}`))
+    console.log(`\nhttp://${ip}:${port}/swagger`);
+    console.log(`http://${ip}:${port}/imgs`);
+    console.log(`http://${ip}:${port}/static\n`);
+    Object.keys(router.db.__wrapped__).forEach(recurso => console.log(`http://${ip}:${port}/${recurso}`))
 })

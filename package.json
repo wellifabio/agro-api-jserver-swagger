@@ -12,7 +12,7 @@
     "start": "node server.js"
   },
   "bin": "./server.js",
-  "name": "json-server-upload",
+  "name": "argo-api-jserver-swagger",
   "version": "1.0.0",
   "description": "Módulo possibilita o upload de arquivos em uma fake REST API, bom para mockar um backend simples. Utiliza o json-server como base para criar uma fake REST API, um middleware de autenticação json-server-auth",
   "main": "server.js",
