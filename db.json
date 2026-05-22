@@ -1,5 +1,18 @@
 {
-  "users": [],
+  "users": [
+    {
+      "email": "marcos@email.com",
+      "password": "$2a$10$FHaq/Cqif24ET.t4QkQECeaACF99lwtr0MLa3H82SuCVY5RFwzH5u",
+      "nome": "Marcos Silva",
+      "id": 1
+    },
+    {
+      "email": "maria@email.com",
+      "password": "$2a$10$qWXj/2z5r4S6TOJqhhrYzu6ZveqOnVZHCjfGW0utV9.POS2NcGjMG",
+      "nome": "Maria Silva",
+      "id": 2
+    }
+  ],
   "animais": [
     {
       "id": "78412",
@@ -130,6 +143,26 @@
         "Exercício": "2024-10-25T22:21:00.921Z"
       },
       "id": "aMCrtyM"
+    },
+    {
+      "Tipo": "Canino",
+      "Nome": "Totó",
+      "Sexo": "macho",
+      "Peso": 5,
+      "Idade": 3,
+      "Abate": 0,
+      "Raça": "Vira latas caramelo",
+      "Lote": 0,
+      "imagem": "string",
+      "manejo": {
+        "videos": [
+          "string"
+        ],
+        "habitat": "Casa do vizinho",
+        "vacinação": 0,
+        "Exercício": "2026-05-22T11:32:01.326Z"
+      },
+      "id": "88m28mX"
     }
   ]
 }

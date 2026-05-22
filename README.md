@@ -22,6 +22,8 @@ $ npm install
 
 # Execute a aplicação 
 $ npm start
+# ou
+$ npm run dev
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000/swagger> para ver a documentação
 ```
 - A API possui autenticação JWT, para acessar os endpoints protegidos é necessário passar o token no header da requisição
