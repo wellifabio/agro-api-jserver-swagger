@@ -32,7 +32,7 @@ $ npm run dev
 ```json
 {
     "nome": "Marcos",
-    "email": "marcos@gmailcom",
+    "email": "marcos@email.com",
     "password": "senha123"
 }
 ```
