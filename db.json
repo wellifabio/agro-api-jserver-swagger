@@ -16,153 +16,111 @@
   "animais": [
     {
       "id": "78412",
-      "Tipo": "Bovino",
-      "Nome": "Estrela",
-      "Sexo": "Fêmea",
-      "Peso": 225.3,
-      "Idade": 2,
-      "Abate": 2.5,
-      "Raça": "Nelore",
-      "Lote": 123,
-      "imagem": "1729798538466.jpg",
-      "manejo": {
-        "videos": [
-          "video-1-vaca.mp4",
-          "video-2-vaca.mp4",
-          "video-3-vaca.mp4"
-        ],
-        "habitat": "Misto",
-        "vacinação": 32,
-        "Exercício": "2024-10-28T07:00:00.000Z"
-      }
+      "tipo": "Bovino",
+      "nome": "Estrela",
+      "sexo": "Fêmea",
+      "peso": 225.3,
+      "idade": 2,
+      "abate": 2.5,
+      "raca": "Nelore",
+      "lote": 123,
+      "imagem": "1729798538466.jpg"
     },
     {
       "id": "35798",
-      "Tipo": "Equino",
-      "Nome": "Relampago",
-      "Sexo": "Macho",
-      "Peso": 250,
-      "Idade": 1,
-      "Abate": 15,
-      "Raça": "Quarto de Milha",
-      "Lote": 121,
-      "imagem": "1729803527343.png",
-      "manejo": {
-        "videos": [
-          "video-1-cavalo.mp4",
-          "video-2-cavalo.mp4",
-          "video-3-cavalo.mp4"
-        ],
-        "habitat": "Externo",
-        "vacinação": 27,
-        "Exercício": "2024-10-22T07:00:00.000Z"
-      }
+      "tipo": "Equino",
+      "nome": "Relampago",
+      "sexo": "Macho",
+      "peso": 250,
+      "idade": 1,
+      "abate": 15,
+      "raca": "Quarto de Milha",
+      "lote": 121,
+      "imagem": "1729803527343.png"
+    },
+    {
+      "id": "35780",
+      "tipo": "Equino",
+      "nome": "Ravana",
+      "sexo": "Fêmea",
+      "peso": 250,
+      "idade": 1,
+      "abate": 15,
+      "raca": "Quarto de Milha",
+      "lote": 121,
+      "imagem": "1729803527343.png"
     },
     {
       "id": "96412",
-      "Tipo": "Suino",
-      "Nome": "Nevasca",
-      "Sexo": "Fêmea",
-      "Peso": 60.3,
-      "Idade": 2,
-      "Abate": 2.2,
-      "Raça": "Santa Ines",
-      "Lote": 123,
-      "imagem": "1729803538413.png",
-      "manejo": {
-        "videos": [
-          "video-1-porco.mp4",
-          "video-2-porco.mp4",
-          "video-3-porco.mp4"
-        ],
-        "habitat": "Externo",
-        "vacinação": 27,
-        "Exercício": "2024-10-22T07:00:00.000Z"
-      }
+      "tipo": "Suino",
+      "nome": "Nevasca",
+      "sexo": "Fêmea",
+      "peso": 60.3,
+      "idade": 2,
+      "abate": 2.2,
+      "raca": "Santa Ines",
+      "lote": 123,
+      "imagem": "1729803538413.png"
+    },
+    {
+      "id": "96412",
+      "tipo": "Suino",
+      "nome": "Mardita",
+      "sexo": "Fêmea",
+      "peso": 55.3,
+      "idade": 2,
+      "abate": 2.2,
+      "raca": "Santa Ines",
+      "lote": 123,
+      "imagem": "1729803538413.png"
     },
     {
       "id": "52147",
-      "Tipo": "Equino",
-      "Nome": "Horácio",
-      "Sexo": "Macho",
-      "Peso": 350.1,
-      "Idade": 2,
-      "Abate": 20,
-      "Raça": "Manga Larga",
-      "Lote": 123,
-      "imagem": "1729803527343.png",
-      "manejo": {
-        "videos": [
-          "video-1-cavalo.mp4",
-          "video-2-cavalo.mp4",
-          "video-3-cavalo.mp4"
-        ],
-        "habitat": "Externo",
-        "vacinação": 27,
-        "Exercício": "2024-10-18T07:00:00.000Z"
-      }
+      "tipo": "Equino",
+      "nome": "Horácio",
+      "sexo": "Macho",
+      "peso": 350.1,
+      "idade": 2,
+      "abate": 20,
+      "raca": "Manga Larga",
+      "lote": 123,
+      "imagem": "1729803527343.png"
     },
     {
       "id": "85473",
-      "Tipo": "Bovino",
-      "Nome": "Zebu",
-      "Sexo": "Macho",
-      "Peso": 398.4,
-      "Idade": 1,
-      "Abate": 2.5,
-      "Raça": "Zebu",
-      "Lote": 121,
-      "imagem": "1729798538466.jpg",
-      "manejo": {
-        "videos": [
-          "video-1-vaca.mp4",
-          "video-2-vaca.mp4",
-          "video-3-vaca.mp4"
-        ],
-        "habitat": "Misto",
-        "vacinação": 18,
-        "Exercício": "2024-10-26T07:00:00.000Z"
-      }
+      "tipo": "Bovino",
+      "nome": "Zebu",
+      "sexo": "Macho",
+      "peso": 398.4,
+      "idade": 1,
+      "abate": 2.5,
+      "raca": "Zebu",
+      "lote": 121,
+      "imagem": "1729798538466.jpg"
     },
     {
-      "Tipo": "string",
-      "Nome": "string",
-      "Sexo": "string",
-      "Peso": 0,
-      "Idade": 0,
-      "Abate": 0,
-      "Raça": "string",
-      "Lote": 0,
-      "imagem": "string",
-      "manejo": {
-        "videos": [
-          "string"
-        ],
-        "habitat": "string",
-        "vacinação": 0,
-        "Exercício": "2024-10-25T22:21:00.921Z"
-      },
-      "id": "aMCrtyM"
+      "id": "85474",
+      "tipo": "Bovino",
+      "nome": "Zebu",
+      "sexo": "Macho",
+      "peso": 398.4,
+      "idade": 1,
+      "abate": 2.5,
+      "raca": "Bandido",
+      "lote": 121,
+      "imagem": "1729798538466.jpg"
     },
     {
-      "Tipo": "Canino",
-      "Nome": "Totó",
-      "Sexo": "macho",
-      "Peso": 5,
-      "Idade": 3,
-      "Abate": 0,
-      "Raça": "Vira latas caramelo",
-      "Lote": 0,
-      "imagem": "string",
-      "manejo": {
-        "videos": [
-          "string"
-        ],
-        "habitat": "Casa do vizinho",
-        "vacinação": 0,
-        "Exercício": "2026-05-22T11:32:01.326Z"
-      },
-      "id": "88m28mX"
+      "id": "85479",
+      "tipo": "Canino",
+      "nome": "Totó",
+      "sexo": "macho",
+      "peso": 5,
+      "idade": 3,
+      "abate": 0,
+      "raca": "Vira latas caramelo",
+      "lote": 0,
+      "imagem": "1779452181872.jpg"
     }
   ]
 }
