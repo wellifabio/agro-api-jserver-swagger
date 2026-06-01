@@ -11,7 +11,6 @@
       "description": "Servidor local"
     }
   ],
-
   "securityDefinitions": {
     "bearerAuth": {
       "type": "apiKey",
@@ -59,17 +58,19 @@
           "Auth"
         ],
         "requestBody": {
-          "description": "Dados de login",
+          "description": "Dados de login, ao validar os dados de acesso emite um token que expira em 1 hora.",
           "content": {
             "application/json": {
               "schema": {
                 "type": "object",
                 "properties": {
                   "email": {
-                    "type": "string"
+                    "type": "string",
+                    "example": "marcos@email.com"
                   },
                   "password": {
-                    "type": "string"
+                    "type": "string",
+                    "example": "senha123"
                   }
                 },
                 "required": [
