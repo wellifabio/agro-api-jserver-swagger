@@ -102,7 +102,7 @@
             "name": "arquivo",
             "in": "path",
             "required": true,
-            "description": "Nome e extensão do arquivo",
+            "description": "nome e extensão do arquivo",
             "schema": {
               "type": "string"
             }
@@ -344,35 +344,35 @@
               "schema": {
                 "type": "object",
                 "properties": {
-                  "Tipo": {
+                  "tipo": {
                     "type": "string",
                     "example": "Bovino"
                   },
-                  "Nome": {
+                  "nome": {
                     "type": "string",
                     "example": "Bruto"
                   },
-                  "Sexo": {
+                  "sexo": {
                     "type": "string",
                     "example": "macho"
                   },
-                  "Peso": {
+                  "peso": {
                     "type": "number",
                     "example": 150
                   },
-                  "Idade": {
+                  "idade": {
                     "type": "number",
                     "example": 1.3
                   },
-                  "Abate": {
+                  "abate": {
                     "type": "number",
                     "example": 2.2
                   },
-                  "Raça": {
+                  "raca": {
                     "type": "string",
                     "example": "Nelore"
                   },
-                  "Lote": {
+                  "lote": {
                     "type": "integer",
                     "example": 603
                   },
@@ -382,14 +382,14 @@
                   }
                 },
                 "required": [
-                  "Tipo",
-                  "Nome",
-                  "Sexo",
-                  "Peso",
-                  "Idade",
-                  "Abate",
-                  "Raça",
-                  "Lote"
+                  "tipo",
+                  "nome",
+                  "sexo",
+                  "peso",
+                  "idade",
+                  "abate",
+                  "raca",
+                  "lote"
                 ]
               }
             }
@@ -434,35 +434,35 @@
               "schema": {
                 "type": "object",
                 "properties": {
-                  "Tipo": {
+                  "tipo": {
                     "type": "string",
                     "example": "Bovino"
                   },
-                  "Nome": {
+                  "nome": {
                     "type": "string",
                     "example": "Bruto"
                   },
-                  "Sexo": {
+                  "sexo": {
                     "type": "string",
                     "example": "macho"
                   },
-                  "Peso": {
+                  "peso": {
                     "type": "number",
                     "example": 150
                   },
-                  "Idade": {
+                  "idade": {
                     "type": "number",
                     "example": 1.3
                   },
-                  "Abate": {
+                  "abate": {
                     "type": "number",
                     "example": 2.2
                   },
-                  "Raça": {
+                  "raca": {
                     "type": "string",
                     "example": "Nelore"
                   },
-                  "Lote": {
+                  "lote": {
                     "type": "integer",
                     "example": 603
                   },
