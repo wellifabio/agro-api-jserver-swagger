@@ -345,52 +345,40 @@
                 "type": "object",
                 "properties": {
                   "Tipo": {
-                    "type": "string"
+                    "type": "string",
+                    "example": "Bovino"
                   },
                   "Nome": {
-                    "type": "string"
+                    "type": "string",
+                    "example": "Bruto"
                   },
                   "Sexo": {
-                    "type": "string"
+                    "type": "string",
+                    "example": "macho"
                   },
                   "Peso": {
-                    "type": "number"
+                    "type": "number",
+                    "example": 150
                   },
                   "Idade": {
-                    "type": "number"
+                    "type": "number",
+                    "example": 1.3
                   },
                   "Abate": {
-                    "type": "number"
+                    "type": "number",
+                    "example": 2.2
                   },
                   "Raça": {
-                    "type": "string"
+                    "type": "string",
+                    "example": "Nelore"
                   },
                   "Lote": {
-                    "type": "integer"
+                    "type": "integer",
+                    "example": 603
                   },
                   "imagem": {
-                    "type": "string"
-                  },
-                  "manejo": {
-                    "type": "object",
-                    "properties": {
-                      "videos": {
-                        "type": "array",
-                        "items": {
-                          "type": "string"
-                        }
-                      },
-                      "habitat": {
-                        "type": "string"
-                      },
-                      "vacinação": {
-                        "type": "integer"
-                      },
-                      "Exercício": {
-                        "type": "string",
-                        "format": "date-time"
-                      }
-                    }
+                    "type": "string",
+                    "example": "1729798538466.jpg"
                   }
                 },
                 "required": [
@@ -401,8 +389,7 @@
                   "Idade",
                   "Abate",
                   "Raça",
-                  "Lote",
-                  "imagem"
+                  "Lote"
                 ]
               }
             }
@@ -448,52 +435,40 @@
                 "type": "object",
                 "properties": {
                   "Tipo": {
-                    "type": "string"
+                    "type": "string",
+                    "example": "Bovino"
                   },
                   "Nome": {
-                    "type": "string"
+                    "type": "string",
+                    "example": "Bruto"
                   },
                   "Sexo": {
-                    "type": "string"
+                    "type": "string",
+                    "example": "macho"
                   },
                   "Peso": {
-                    "type": "number"
+                    "type": "number",
+                    "example": 150
                   },
                   "Idade": {
-                    "type": "number"
+                    "type": "number",
+                    "example": 1.3
                   },
                   "Abate": {
-                    "type": "number"
+                    "type": "number",
+                    "example": 2.2
                   },
                   "Raça": {
-                    "type": "string"
+                    "type": "string",
+                    "example": "Nelore"
                   },
                   "Lote": {
-                    "type": "integer"
+                    "type": "integer",
+                    "example": 603
                   },
                   "imagem": {
-                    "type": "string"
-                  },
-                  "manejo": {
-                    "type": "object",
-                    "properties": {
-                      "videos": {
-                        "type": "array",
-                        "items": {
-                          "type": "string"
-                        }
-                      },
-                      "habitat": {
-                        "type": "string"
-                      },
-                      "vacinação": {
-                        "type": "integer"
-                      },
-                      "Exercício": {
-                        "type": "string",
-                        "format": "date-time"
-                      }
-                    }
+                    "type": "string",
+                    "example": "1729798538466.jpg"
                   }
                 },
                 "required": []
