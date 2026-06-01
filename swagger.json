@@ -189,13 +189,16 @@
                 "type": "object",
                 "properties": {
                   "nome": {
-                    "type": "string"
+                    "type": "string",
+                    "example":"Ana Silva"
                   },
                   "email": {
-                    "type": "string"
+                    "type": "string",
+                    "example":"ana@silva.com"
                   },
                   "password": {
-                    "type": "string"
+                    "type": "string",
+                    "example":"senha123"
                   }
                 },
                 "required": [
