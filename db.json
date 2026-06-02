@@ -109,18 +109,6 @@
       "raca": "Bandido",
       "lote": 121,
       "imagem": "1729798538466.jpg"
-    },
-    {
-      "id": "85479",
-      "tipo": "Canino",
-      "nome": "Totó",
-      "sexo": "macho",
-      "peso": 5,
-      "idade": 3,
-      "abate": 0,
-      "raca": "Vira latas caramelo",
-      "lote": 0,
-      "imagem": "1779452181872.jpg"
     }
   ]
 }

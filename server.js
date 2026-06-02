@@ -13,6 +13,7 @@ const middlewares = jsonServer.defaults()
 const swaggerUi = require('swagger-ui-express');// Documentação Swagger
 const swaggerDoc = require('./swagger.json'); // Arquivo de documentação Swagger
 server.use('/swagger', swaggerUi.serve, swaggerUi.setup(swaggerDoc));
+server.use(cors());
 
 const ip = "localhost";
 const port = 3000;
@@ -34,7 +35,6 @@ let storage = multer.diskStorage({
 })
 
 let upload = multer({ storage })
-server.use(cors())
 server.use("/static", express.static(path.join(__dirname, "uploads")))
 server.use(upload.any())
 
@@ -56,8 +56,8 @@ server.post("/imgs", (req, res) => {
 
 // Você pode definir diferentes níveis de acesso para diferentes endpoints aqui.
 const rules = auth.rewriter({
-    "/users*": "/660/users",
-    "/animais*": "/660/animais",
+    "/users*": "/660/users$1",
+    "/animais*": "/664/animais$1",
 });
 
 server.use(rules);
