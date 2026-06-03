@@ -101,12 +101,12 @@
     {
       "imagem": "1729798538466.jpg",
       "tipo": "Bovino",
-      "nome": "Zebu",
+      "nome": "Boisão",
       "sexo": "Macho",
       "peso": 398.4,
       "idade": 1,
       "abate": 2.5,
-      "raca": "Bandido",
+      "raca": "Zebu",
       "lote": 121,
       "id": "85474"
     }
