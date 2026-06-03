@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "title": "AGRO AGROTECH",
+    "title": "API AGROTECH",
     "version": "1.0.0",
     "description": "Documentação da API AGROTECH"
   },
